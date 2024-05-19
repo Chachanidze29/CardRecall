@@ -44,8 +44,8 @@ function App() {
   };
 
   const handleSubmit = () => {
-    const selectedCardNames = selectedCards.map((card) => card.name).sort();
-    const shownCardNames = cards.map((card) => card.name).sort();
+    const selectedCardNames = selectedCards.map((card) => card.name);
+    const shownCardNames = cards.map((card) => card.name);
 
     if (JSON.stringify(selectedCardNames) === JSON.stringify(shownCardNames)) {
       setMessage({ value: "Correct!", type: "success" });
