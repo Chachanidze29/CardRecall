@@ -1,6 +1,6 @@
 import { Card } from "../App";
 
-export function shuffleCards(cards: Card[]): Card[] {
+export function shuffleCards(cards: Card[], count: number): Card[] {
   const shuffledCards = [...cards];
   let currentIndex = shuffledCards.length;
 
@@ -14,5 +14,5 @@ export function shuffleCards(cards: Card[]): Card[] {
     ];
   }
 
-  return shuffledCards;
+  return shuffledCards.slice(0, count);
 }

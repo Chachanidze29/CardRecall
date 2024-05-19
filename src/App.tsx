@@ -22,18 +22,26 @@ function App() {
     value: "",
     type: "success",
   });
+  const [isGameActive, setIsGameActive] = useState(false);
+
+  let timeoutId: number;
 
   const startGame = () => {
     resetGame();
+    setIsGameActive(true);
     setShowCards(true);
-    setCards(shuffleCards(cardsData.slice(0, cardCount)));
-    setTimeout(() => {
-      setShowCards(false);
-      setShowSelect(true);
+    setCards(shuffleCards(cardsData, cardCount));
+    timeoutId = window.setTimeout(() => {
+      if (isGameActive) {
+        setShowCards(false);
+        setShowSelect(true);
+      }
     }, timer * 1000);
   };
 
   const resetGame = () => {
+    window.clearTimeout(timeoutId);
+    setIsGameActive(false);
     setCardCount(52);
     setTimer(60);
     setCards([]);
