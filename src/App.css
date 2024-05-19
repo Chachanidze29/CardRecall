@@ -1,0 +1,86 @@
+#root {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.header {
+  margin-top: 0px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.button {
+  background-color: green;
+  width: 10em;
+}
+
+.reset-button {
+  background-color: red;
+  width: 10em;
+}
+
+.submit-button {
+  background-color: blue;
+  width: 10em;
+  margin-top: 1em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 0 0 20%;
+  margin: 0.5em;
+  box-sizing: border-box;
+}
+
+.select-container {
+  max-width: 680px;
+}
+
+.multiSelectContainer li {
+  background-color: #0096fb;
+}
+
+.message-success {
+  color: green;
+}
+
+.message-error {
+  color: red;
+}

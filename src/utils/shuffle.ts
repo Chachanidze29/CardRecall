@@ -1,0 +1,18 @@
+import { Card } from "../App";
+
+export function shuffleCards(cards: Card[]): Card[] {
+  const shuffledCards = [...cards];
+  let currentIndex = shuffledCards.length;
+
+  while (currentIndex !== 0) {
+    const randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [shuffledCards[currentIndex], shuffledCards[randomIndex]] = [
+      shuffledCards[randomIndex],
+      shuffledCards[currentIndex],
+    ];
+  }
+
+  return shuffledCards;
+}
