@@ -22,28 +22,21 @@ function App() {
     value: "",
     type: "success",
   });
-  const [isGameActive, setIsGameActive] = useState(false);
 
   let timeoutId: number;
 
   const startGame = () => {
     resetGame();
-    setIsGameActive(true);
     setShowCards(true);
     setCards(shuffleCards(cardsData, cardCount));
     timeoutId = window.setTimeout(() => {
-      if (isGameActive) {
-        setShowCards(false);
-        setShowSelect(true);
-      }
+      setShowCards(false);
+      setShowSelect(true);
     }, timer * 1000);
   };
 
   const resetGame = () => {
     window.clearTimeout(timeoutId);
-    setIsGameActive(false);
-    setCardCount(52);
-    setTimer(60);
     setCards([]);
     setShowCards(false);
     setShowSelect(false);
@@ -110,7 +103,12 @@ function App() {
         >
           Start
         </button>
-        <button type="button" className="reset-button" onClick={resetGame}>
+        <button
+          type="button"
+          className="reset-button"
+          onClick={resetGame}
+          disabled={showCards}
+        >
           Reset
         </button>
       </div>
