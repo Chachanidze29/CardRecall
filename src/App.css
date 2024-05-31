@@ -16,6 +16,16 @@
   margin-top: 0px;
 }
 
+.active {
+  opacity: 0.5;
+}
+
+.deck-size-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
 .inputs {
   display: flex;
   justify-content: center;

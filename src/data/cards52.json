@@ -36,6 +36,22 @@
     "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_9.png"
   },
   {
+    "name": "10 of Spades",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_10.png"
+  },
+  {
+    "name": "Jack of Spades",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_jack.png"
+  },
+  {
+    "name": "Queen of Spades",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_queen.png"
+  },
+  {
+    "name": "King of Spades",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_king.png"
+  },
+  {
     "name": "Ace of Hearts",
     "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_ace.png"
   },
@@ -72,6 +88,22 @@
     "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_9.png"
   },
   {
+    "name": "10 of Hearts",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_10.png"
+  },
+  {
+    "name": "Jack of Hearts",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_jack.png"
+  },
+  {
+    "name": "Queen of Hearts",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_queen.png"
+  },
+  {
+    "name": "King of Hearts",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_king.png"
+  },
+  {
     "name": "Ace of Diamonds",
     "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_ace.png"
   },
@@ -106,6 +138,22 @@
   {
     "name": "9 of Diamonds",
     "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_9.png"
+  },
+  {
+    "name": "10 of Diamonds",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_10.png"
+  },
+  {
+    "name": "Jack of Diamonds",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_jack.png"
+  },
+  {
+    "name": "Queen of Diamonds",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_queen.png"
+  },
+  {
+    "name": "King of Diamonds",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_king.png"
   },
   {
     "name": "Ace of Clubs",
@@ -144,75 +192,19 @@
     "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_9.png"
   },
   {
-    "name": "Ace of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_ace.png"
+    "name": "10 of Clubs",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_10.png"
   },
   {
-    "name": "2 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_2.png"
+    "name": "Jack of Clubs",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_jack.png"
   },
   {
-    "name": "3 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_3.png"
+    "name": "Queen of Clubs",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_queen.png"
   },
   {
-    "name": "4 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_4.png"
-  },
-  {
-    "name": "5 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_5.png"
-  },
-  {
-    "name": "6 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_6.png"
-  },
-  {
-    "name": "7 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_7.png"
-  },
-  {
-    "name": "8 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_8.png"
-  },
-  {
-    "name": "9 of Hearts",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_9.png"
-  },
-  {
-    "name": "Ace of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_ace.png"
-  },
-  {
-    "name": "2 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_2.png"
-  },
-  {
-    "name": "3 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_3.png"
-  },
-  {
-    "name": "4 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_4.png"
-  },
-  {
-    "name": "5 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_5.png"
-  },
-  {
-    "name": "6 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_6.png"
-  },
-  {
-    "name": "7 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_7.png"
-  },
-  {
-    "name": "8 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_8.png"
-  },
-  {
-    "name": "9 of Diamonds",
-    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_9.png"
+    "name": "King of Clubs",
+    "image": "https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_king.png"
   }
 ]
